@@ -67,6 +67,7 @@ const submit = async () => {
   }
 };
 
+// * lifecycle
 onMounted(async () => {
   try {
     loading.value = true;
